@@ -1,0 +1,21 @@
+
+.card{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:10px;
+    padding:10px;
+
+}
+.card .poster{
+    border:none;
+    height:120px;
+    width:120px;
+    background-image: no-repeat;
+}
+.card .title{
+  font-size: 19px;    
+
+}
+.card .release-date{
+    font-size:15px;
+}
